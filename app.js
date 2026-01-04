@@ -1,5 +1,5 @@
-const API_URL = "https://YOUR_API_URL";
-const BOT = "YourBotUsername";
+const API_URL = "https://only-jacinda-chennaicfc6-d4d87c57.koyeb.app/";
+const BOT = "ProSearchFilesBot";
 
 const moviesEl = document.getElementById("movies");
 const searchEl = document.getElementById("search");
