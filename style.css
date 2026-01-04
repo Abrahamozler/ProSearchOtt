@@ -1,10 +1,5 @@
-body{margin:0;font-family:Arial;background:#141414;color:#fff}
-.navbar{display:flex;gap:10px;align-items:center;padding:12px;background:#000;position:sticky;top:0}
-.navbar input{flex:1;padding:6px;border-radius:4px;border:none}
-.rows{padding:12px}
-.container{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:14px}
-.card{background:#1f1f1f;border-radius:6px;overflow:hidden;transition:transform .2s}
-.card:hover{transform:scale(1.05)}
-.card img{width:100%;height:240px;object-fit:cover}
-.info{padding:8px}
-button{margin:4px 2px;padding:4px 8px;background:#e50914;border:none;color:#fff;border-radius:4px;cursor:pointer;font-size:12px}
+body { background:#111; color:#fff; font-family:sans-serif }
+header { display:flex; gap:10px; padding:10px }
+#movies { display:grid; grid-template-columns:repeat(auto-fill,150px); gap:12px; padding:10px }
+.card img { width:100%; border-radius:6px }
+button { background:red; border:none; color:white; margin:2px; cursor:pointer }
