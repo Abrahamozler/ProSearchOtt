@@ -17,7 +17,7 @@ fetch("movies.json")
         btn.innerText = v.size;
         btn.onclick = () => {
           window.open(
-            "https://t.me/YourBotUsername?start=" + v.tg,
+            "https://t.me/ProSearchFilesBot?start=" + v.tg,
             "_blank"
           );
         };
